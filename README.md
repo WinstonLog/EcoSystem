@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://java.com)
 [![Spigot](https://img.shields.io/badge/Spigot-1.16.5+-yellow.svg)](https://spigotmc.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/day2s/EcoSystem.svg)](https://github.com/day2s/EcoSystem/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/day2s/EcoSystem.svg)](https://github.com/WinstonLog/EcoSystem/stargazers)
 
 > Transform your Minecraft world into a living, breathing ecosystem that evolves over time!
 
@@ -37,7 +37,7 @@
 
 ## 📦 Installation
 
-1. **Download** the latest `EcoSystem.jar` from [Releases](https://github.com/day2s/EcoSystem/releases)
+1. **Download** the latest `EcoSystem.jar` from [Releases](https://github.com/WinstonLog/EcoSystem/releases)
 2. **Place** the JAR file in your server's `plugins/` folder
 3. **Restart** your server
 4. **Configure** `plugins/EcoSystem/config.yml` to your liking
