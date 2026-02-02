@@ -1,61 +1,71 @@
-# 🌍 EcoSystem - Dynamic Ecological System for Minecraft
+# 🌍 EcoSystem - Динамическая экосистема для Minecraft
 
-[![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://java.com)
+[![Java](https://img.shields.io/badge/Java-16+-orange.svg)](https://java.com)
 [![Spigot](https://img.shields.io/badge/Spigot-1.16.5+-yellow.svg)](https://spigotmc.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/day2s/EcoSystem.svg)](https://github.com/WinstonLog/EcoSystem/stargazers)
+[![Лицензия](https://img.shields.io/badge/Лицензия-MIT-green.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/WinstonLog/EcoSystem.svg)](https://github.com/WinstonLog/EcoSystem/stargazers)
 
-> Transform your Minecraft world into a living, breathing ecosystem that evolves over time!
+> Превратите ваш мир Minecraft в живую, дышащую экосистему, которая развивается со временем!
 
-## ✨ Features
+## 📌 Содержание
+- [✨ Возможности](#возможности)
+- [📦 Установка](#установка)
+- [🎮 Использование](#использование)
+- [⚙️ Конфигурация](#конфигурация)
+- [🖼️ Скриншоты](#скриншоты)
+- [🤝 Поддержка разработчиков](#поддержка-разработчиков)
+- [📞 Поддержка](#поддержка)
+- [📄 Лицензия](#лицензия)
 
-### 🌱 **Natural Plant Spread**
-- Grass, flowers, and saplings naturally spread across the world
-- Configurable spread rates and plant types
-- Visual particle effects during growth
+## ✨ Возможности
 
-### 🧬 **Intelligent Mob Evolution**
-- Mobs adapt and become stronger over time
-- Unique evolutions for each mob type:
-  - **Zombies** → Armored zombies with speed boost
-  - **Skeletons** → Elite archers with powered bows
-  - **Creepers** → Charged creepers with larger explosions
-  - **Spiders** → Jumping spiders with increased agility
-- Evolution based on natural selection principles
+### 🌱 **Естественное распространение растений**
+- Трава, цветы и саженцы естественно распространяются по миру
+- Настраиваемые скорости распространения и типы растений
+- Визуальные эффекты частиц во время роста
 
-### ⚙️ **Highly Configurable**
-- Enable/disable individual systems
-- Adjust evolution chances and intervals
-- Customize plant spread behavior
-- Localization support
+### 🧬 **Интеллектуальная эволюция мобов**
+- Мобы адаптируются и становятся сильнее со временем
+- Уникальные эволюции для каждого типа мобов:
+  - **Зомби** → Бронированные зомби с усиленной скоростью
+  - **Скелеты** → Элитные лучники с усиленными луками
+  - **Криперы** → Заряженные криперы с увеличенным взрывом
+  - **Пауки** → Прыгучие пауки с повышенной ловкостью
+- Эволюция на основе принципов естественного отбора
 
-### 🚀 **Performance Optimized**
-- Asynchronous processing for heavy operations
-- Smart chunk loading management
-- Minimal impact on server performance
-- Built-in metrics with bStats
+### ⚙️ **Высокая настраиваемость**
+- Включение/отключение отдельных систем
+- Настройка шансов эволюции и интервалов
+- Кастомизация поведения распространения растений
+- Поддержка локализации
 
-## 📦 Installation
+### 🚀 **Оптимизация производительности**
+- Асинхронная обработка тяжелых операций
+- Умное управление загрузкой чанков
+- Минимальное влияние на производительность сервера
+- Встроенная статистика с bStats
 
-1. **Download** the latest `EcoSystem.jar` from [Releases](https://github.com/WinstonLog/EcoSystem/releases)
-2. **Place** the JAR file in your server's `plugins/` folder
-3. **Restart** your server
-4. **Configure** `plugins/EcoSystem/config.yml` to your liking
-5. **Enjoy** a living world!
+## 📦 Установка
 
-## 🎮 Usage
+1. **Скачайте** последнюю версию `EcoSystem.jar` из [Releases](https://github.com/WinstonLog/EcoSystem/releases)
+2. **Поместите** JAR-файл в папку `plugins/` вашего сервера
+3. **Перезапустите** сервер
+4. **Настройте** `plugins/EcoSystem/config.yml` по своему вкусу
+5. **Наслаждайтесь** живым миром!
 
-### Basic Commands
-| Command | Description | Permission |
-|---------|-------------|------------|
-| `/eco` | Show help menu | `ecosystem.use` |
-| `/eco status` | Check system status | `ecosystem.use` |
-| `/eco reload` | Reload configuration | `ecosystem.admin` |
-| `/eco forcecheck` | Force immediate check | `ecosystem.admin` |
+## 🎮 Использование
 
-### Permissions
+### Основные команды
+| Команда | Описание | Права |
+|---------|----------|-------|
+| `/eco` | Показать меню помощи | `ecosystem.use` |
+| `/eco status` | Проверить статус систем | `ecosystem.use` |
+| `/eco reload` | Перезагрузить конфигурацию | `ecosystem.admin` |
+| `/eco forcecheck` | Принудительная проверка | `ecosystem.admin` |
+
+### Права доступа
 ```yaml
-ecosystem.use:       # Basic command access
+ecosystem.use:       # Базовый доступ к командам
   default: op
-ecosystem.admin:     # Administrative functions
+ecosystem.admin:     # Административные функции
   default: op
